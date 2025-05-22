@@ -29,7 +29,26 @@ g++ -o haiku_student haiku_student.cpp
 g++ -o librarian librarian.cpp
 ```
 
-This compiles and starts librarian, haiku_master, and haiku_student.
+This compiles librarian, haiku_master, and haiku_student.
+
+3. Run the programs in separate terminals:
+- **Terminal 1**: Start the librarian:
+
+```
+./librarian
+```
+
+- **Terminal 2**: Start the haiku_master:
+
+```
+./haiku_master
+```
+
+- **Terminal 3**: Start the haiku_student:
+
+```
+./haiku_student
+```
 
 Output:
 Haiku lines appear in the haiku_student terminal (if run manually).
